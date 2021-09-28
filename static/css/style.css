@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+}
+
+h2  {
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+p { 
+    color: black;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+ol {
+    type: 1;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    style: width:100%;
+}
+
+th {
+    text-align: left;
+}

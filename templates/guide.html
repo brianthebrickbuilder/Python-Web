@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+ 
+  <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Heading -->
+<h1>Expensive LEGO® Guide</h1>
+
+<!-- Generated ordered list based on the size of dictionary in guid_list function in fucntions.py-->
+<ol>
+    {% for post in posts %}
+    <li>
+        <h2>{{ post.title }}</h2>
+        <h3>{{ post.price }}</h3>
+        <img src="static/img/{{ post.image }}" />
+        <hr>
+    </li>
+    {% endfor %}
+
+</ol>
+<!-- Link to the main page -->
+<p><a href="/main">Back</a>
+ 
+</body>
+</html>

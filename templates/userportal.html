@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+ 
+  <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- user website -->
+
+{% block content %}
+
+<h1>{{ message }}</h1>
+
+{% endblock %}
+
+<table>
+<tr>
+    <th><img src="static/img/cat01.jpg" width="200" height="100"/></th>
+    <th>Cute Kittens</th>
+    <th>Information about cute kittens</th>
+</tr>
+<tr>
+    <th><img src="static/img/cat02.jpg" width="200" height="100"/></th>
+    <th>Cute Kittens</th>
+    <th>Information about cute kittens</th>
+</tr>
+<tr>
+    <th><img src="static/img/cat03.jpg" width="200" height="100"/></th>
+    <th>Cute Kittens</th>
+    <th>Information about cute kittens</th>
+</tr>
+<tr>
+    <th><img src="static/img/cat04.jpg" width="200" height="100"/></th>
+    <th>Cute Kittens</th>
+    <th>Information about cute kittens</th>
+</tr>
+<tr></tr>
+
+</table>
+<p><a href="/update">Update Password</a></p>
+
+<hr>
+<!-- Link to the main page -->
+<p><a href="/main">Back</a></p>
+ 
+</body>
+</html>

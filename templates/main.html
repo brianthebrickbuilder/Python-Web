@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+ 
+  <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Heading-->
+<h1>Welcome to the LEGO® Information Page</h1>
+<hr>
+<!-- The date and time is added from function main in main.py-->
+<h3>Date: {{ datetime.date }}</h3>
+<h3>Time: {{ datetime.time }}</h3>
+<hr>
+<!-- Body of the Webpage-->
+<p>Welcome to the LEGO information page.  Please click on guide to see a guide to the most
+expensive lego mini figures.  Click on links to go to some interesting LEGO® websites.</p>
+<hr>
+<!-- Links the the other pages-->
+<p><a href="/guide">Guide</a>    <a href="/links">Links</a>  <a href="/login">Login</a>
+<a href="/registration">Registration</a>
+</body>
+</html>
